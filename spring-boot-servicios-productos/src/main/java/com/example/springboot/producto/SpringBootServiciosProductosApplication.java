@@ -1,0 +1,15 @@
+package com.example.springboot.producto;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+
+@EnableEurekaClient
+@SpringBootApplication
+public class SpringBootServiciosProductosApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootServiciosProductosApplication.class, args);
+	}
+
+}
